@@ -27,6 +27,7 @@ export const FloatedDateTimeField = ({
   // Format ISO date to display format: "13th Nov 2025, 12:05 PM"
   const formatDisplayDate = (isoString: string) => {
     if (!isoString) return '';
+    console.log("testing")
     
     try {
       const date = new Date(isoString);
